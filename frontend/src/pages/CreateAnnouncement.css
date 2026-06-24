@@ -1,0 +1,162 @@
+.createannouncement-page{
+    min-height:100vh;
+    background:#f8fafc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.createannouncement-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.createannouncement-logo h2{
+
+    color:#16a34a;
+
+}
+
+.createannouncement-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.createannouncement-container{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:40px auto;
+
+}
+
+.createannouncement-header{
+
+    margin-bottom:30px;
+
+}
+
+.createannouncement-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.createannouncement-header p{
+
+    color:#64748b;
+
+}
+
+.createannouncement-form{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.createannouncement-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
+
+}
+
+.createannouncement-group label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.createannouncement-group input,
+.createannouncement-group textarea{
+
+    padding:14px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+.createannouncement-group textarea{
+
+    min-height:180px;
+
+    resize:none;
+
+}
+
+.createannouncement-group input:focus,
+.createannouncement-group textarea:focus{
+
+    border-color:#16a34a;
+
+    box-shadow:
+    0 0 10px rgba(22,163,74,.15);
+
+}
+
+.createannouncement-btn{
+
+    width:100%;
+
+    border:none;
+
+    background:#16a34a;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.createannouncement-btn:hover{
+
+    background:#15803d;
+
+}

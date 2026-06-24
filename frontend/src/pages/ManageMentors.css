@@ -1,0 +1,138 @@
+.mentor-page{
+
+    min-height:100vh;
+
+    background:#f8fafc;
+
+}
+
+.mentor-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+.mentor-form-card,
+.mentor-list-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:25px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.mentor-form-card h1,
+.mentor-list-card h1{
+
+    margin-bottom:20px;
+
+}
+
+.mentor-form-card form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.mentor-form-card input{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+}
+
+.mentor-form-card button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.show-password{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.mentor-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px;
+
+    border:1px solid #eee;
+
+    border-radius:10px;
+
+    margin-bottom:12px;
+
+}
+
+.mentor-card button{
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.error{
+
+    color:red;
+
+    margin-bottom:15px;
+
+    text-align:center;
+
+}
+
+button:disabled{
+
+    opacity:.7;
+
+    cursor:not-allowed;
+
+}

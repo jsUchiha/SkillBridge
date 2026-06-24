@@ -1,0 +1,174 @@
+.viewsubmissions-page{
+    min-height:100vh;
+    background:#f8fafc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.viewsubmissions-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.viewsubmissions-logo h2{
+
+    color:#16a34a;
+
+}
+
+.viewsubmissions-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.viewsubmissions-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.viewsubmissions-header{
+
+    margin-bottom:25px;
+
+}
+
+.viewsubmissions-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.viewsubmissions-header p{
+
+    color:#64748b;
+
+}
+
+.viewsubmissions-stats{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.viewsubmissions-stats h2{
+
+    color:#64748b;
+
+    margin-bottom:10px;
+
+}
+
+.viewsubmissions-stats h1{
+
+    color:#16a34a;
+
+    font-size:42px;
+
+}
+
+.viewsubmissions-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:25px;
+
+}
+
+.viewsubmissions-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.viewsubmissions-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.viewsubmissions-card h2{
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.viewsubmissions-card p{
+
+    margin-bottom:10px;
+
+    color:#475569;
+
+    line-height:1.6;
+
+}
+
+.viewsubmissions-link{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#16a34a;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.viewsubmissions-link:hover{
+
+    background:#15803d;
+
+}

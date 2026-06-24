@@ -1,0 +1,208 @@
+.viewannouncements-page{
+    min-height:100vh;
+    background:#f8fafc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.viewannouncements-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.viewannouncements-logo h2{
+
+    color:#16a34a;
+
+}
+
+.viewannouncements-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.viewannouncements-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.viewannouncements-header{
+
+    margin-bottom:25px;
+
+}
+
+.viewannouncements-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.viewannouncements-header p{
+
+    color:#64748b;
+
+}
+
+.viewannouncements-stats{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.viewannouncements-stats h2{
+
+    color:#64748b;
+
+    margin-bottom:10px;
+
+}
+
+.viewannouncements-stats h1{
+
+    color:#16a34a;
+
+    font-size:42px;
+
+}
+
+.viewannouncements-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:25px;
+
+}
+
+.viewannouncements-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.viewannouncements-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.viewannouncements-card h2{
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.viewannouncements-card p{
+
+    color:#475569;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+.viewannouncements-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.viewannouncements-edit-btn{
+
+    flex:1;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.viewannouncements-delete-btn{
+
+    flex:1;
+
+    border:none;
+
+    background:#ef4444;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.viewannouncements-edit-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.viewannouncements-delete-btn:hover{
+
+    background:#dc2626;
+
+}

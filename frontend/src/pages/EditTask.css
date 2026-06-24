@@ -1,0 +1,64 @@
+.create-task{
+    width:90%;
+    max-width:700px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+.create-task h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1976d2;
+}
+
+.create-task form{
+    display:flex;
+    flex-direction:column;
+}
+
+.create-task label{
+    margin-bottom:5px;
+    margin-top:15px;
+    font-weight:bold;
+    color:#333;
+}
+
+.create-task input,
+.create-task textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+    box-sizing:border-box;
+}
+
+.create-task textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+.create-task input:focus,
+.create-task textarea:focus{
+    outline:none;
+    border-color:#1976d2;
+}
+
+.create-task button{
+    margin-top:20px;
+    padding:12px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.create-task button:hover{
+    background:#218838;
+}

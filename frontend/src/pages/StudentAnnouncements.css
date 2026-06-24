@@ -1,0 +1,185 @@
+.studentannouncements-page{
+
+    min-height:100vh;
+
+    background:#f8fafc;
+
+    font-family:'Segoe UI',sans-serif;
+
+}
+
+.studentannouncements-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.studentannouncements-logo h2{
+
+    color:#16a34a;
+
+}
+
+.studentannouncements-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.studentannouncements-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.studentannouncements-header{
+
+    margin-bottom:25px;
+
+}
+
+.studentannouncements-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.studentannouncements-header p{
+
+    color:#64748b;
+
+}
+
+.studentannouncements-stats{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.studentannouncements-stats h2{
+
+    color:#64748b;
+
+    margin-bottom:10px;
+
+}
+
+.studentannouncements-stats h1{
+
+    color:#16a34a;
+
+    font-size:42px;
+
+}
+
+.studentannouncements-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:25px;
+
+}
+
+.studentannouncements-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.studentannouncements-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.studentannouncements-badge{
+
+    display:inline-block;
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.studentannouncements-card h2{
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.studentannouncements-message{
+
+    color:#475569;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+.studentannouncements-date{
+
+    color:#64748b;
+
+    font-size:14px;
+
+    border-top:
+    1px solid #e2e8f0;
+
+    padding-top:15px;
+
+}

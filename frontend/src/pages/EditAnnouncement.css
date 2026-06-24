@@ -1,0 +1,162 @@
+.editannouncement-page{
+    min-height:100vh;
+    background:#f8fafc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.editannouncement-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.editannouncement-logo h2{
+
+    color:#16a34a;
+
+}
+
+.editannouncement-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.editannouncement-container{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:40px auto;
+
+}
+
+.editannouncement-header{
+
+    margin-bottom:30px;
+
+}
+
+.editannouncement-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.editannouncement-header p{
+
+    color:#64748b;
+
+}
+
+.editannouncement-form{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.editannouncement-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
+
+}
+
+.editannouncement-group label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.editannouncement-group input,
+.editannouncement-group textarea{
+
+    padding:14px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+.editannouncement-group textarea{
+
+    min-height:180px;
+
+    resize:none;
+
+}
+
+.editannouncement-group input:focus,
+.editannouncement-group textarea:focus{
+
+    border-color:#16a34a;
+
+    box-shadow:
+    0 0 10px rgba(22,163,74,.15);
+
+}
+
+.editannouncement-btn{
+
+    width:100%;
+
+    border:none;
+
+    background:#16a34a;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.editannouncement-btn:hover{
+
+    background:#15803d;
+
+}

@@ -1,0 +1,217 @@
+.studenttasks-page{
+
+    min-height:100vh;
+
+    background:#f8fafc;
+
+    font-family:'Segoe UI',sans-serif;
+
+}
+
+.studenttasks-navbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 50px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.studenttasks-logo h2{
+
+    color:#16a34a;
+
+}
+
+.studenttasks-logo p{
+
+    color:#64748b;
+
+    font-size:12px;
+
+}
+
+.studenttasks-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.studenttasks-header{
+
+    margin-bottom:25px;
+
+}
+
+.studenttasks-header h1{
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.studenttasks-header p{
+
+    color:#64748b;
+
+}
+
+.studenttasks-stats{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.studenttasks-stats h2{
+
+    color:#64748b;
+
+    margin-bottom:10px;
+
+}
+
+.studenttasks-stats h1{
+
+    color:#16a34a;
+
+    font-size:42px;
+
+}
+
+.studenttasks-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(380px,1fr));
+
+    gap:25px;
+
+}
+
+.studenttasks-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.studenttasks-card h2{
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.studenttasks-description{
+
+    color:#64748b;
+
+    line-height:1.7;
+
+    margin-bottom:15px;
+
+}
+
+.studenttasks-due{
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.studenttasks-card label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    margin-top:10px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.studenttasks-select,
+.studenttasks-input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+    outline:none;
+
+}
+
+.studenttasks-select:focus,
+.studenttasks-input:focus{
+
+    border-color:#16a34a;
+
+}
+
+.studenttasks-submit-btn{
+
+    width:100%;
+
+    border:none;
+
+    background:#16a34a;
+
+    color:white;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.studenttasks-submit-btn:hover{
+
+    background:#15803d;
+
+}
